@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: myFirstPod
-  Label:
+  name: my_first_pod
+  labels:
     app: myFirstPod
     type: network
 spec:
   containers:
     - name: nginx
-      image: nginx
+      image: ngin
