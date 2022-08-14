@@ -6,5 +6,5 @@ metadata:
     type: frontend
 spec:
   containers:
-    - name: sample-node-app2
+    - name: runway-jenkies
       image: hanansalem88/runway-jenkies
