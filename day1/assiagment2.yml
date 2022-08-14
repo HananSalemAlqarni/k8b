@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: deployment
   labels:
-    app: صثلا
+    app: web
     kind: frontend
 spec:
   template:
