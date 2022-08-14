@@ -8,5 +8,8 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: nginx
-      
+      image: nginx:alpine
+    - name: redis
+      image: redis
+    - name: memcached
+      image: memcached
