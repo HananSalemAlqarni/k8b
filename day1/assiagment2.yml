@@ -3,14 +3,14 @@ kind: Deployment
 metadata:
   name: deployment
   labels:
-    app: web
+    app: mydeployment
     kind: frontend
 spec:
   template:
     metadata:
-      name: my-first-pod
+      name: my-web-deploy
       labels:
-        app: myFirstPod
+        app: web
         type: frontend
     spec:
       containers:
