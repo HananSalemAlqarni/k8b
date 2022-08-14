@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: images-Day1-Assignment
+  name: images-day1-assignment
   labels:
     app: myFirstPod
     type: network
