@@ -1,16 +1,16 @@
 apiVersion: apps/v1
-kind: ReplicaSet
+kind: Deployment
 metadata:
-  name: replica-set
+  name: deployment
   labels:
-    app: myreplicaset
+    app: صثلا
     kind: frontend
 spec:
   template:
     metadata:
       name: my-first-pod
       labels:
-        app: web
+        app: myFirstPod
         type: frontend
     spec:
       containers:
